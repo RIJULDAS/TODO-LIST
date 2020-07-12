@@ -1,0 +1,70 @@
+body{
+	background-image:url("back.jpg");
+	background-size:auto;
+	background-repeat: no-repeat;
+	max-height: none;
+	outline-offset: medium solid black;
+}
+*{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+	color: darkslategray;
+	margin:  100px 80px;
+	font-size: 100px;
+	font-style: normal;
+	font-family: "Droid+Sans";
+	font-weight: bold;
+}
+.title{
+	color: maroon;
+	margin:  100px 10px;
+	font-size: 100px;
+	font-style: normal;
+	font-family: "Droid+Sans";
+	font-weight: bold;
+}
+.inputdiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+.input{
+	padding: 0.00001px 4px;
+	background-color: darkslategray;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	width: 340px;
+	border-radius: 40px;
+	transition: 1s;
+	height: 64px;
+}
+.add{
+	outline: none;
+	border: none;
+	cursor: pointer;
+	padding: 8px 4px;
+	transition: 1s;
+	border-radius: 60px;
+	height: 40px;
+	width: 40px;
+	background-color:maroon;
+
+}
+.add:hover{
+	opacity: 0.8;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2px;
+}
+
